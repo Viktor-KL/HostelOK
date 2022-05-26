@@ -1,0 +1,348 @@
+@media screen and (max-width: 1200px){
+    .nav__button{
+        font-size: 16px;
+    }
+    .nav__links{
+        font-size: 16px;
+    }
+    .guide__title{
+        font-size: 32px;
+    }
+    .guide__subtitle{
+        font-size: 16px;
+    }
+    .guide__punkt-title{
+        font-size: 21px;
+    }
+    .guide__num{
+        margin-top: 3px;
+    }
+    .title{
+        font-size: 42px;
+    }
+    .title__subtitle{
+        font-size: 18px;
+        width: 330px;
+    }
+    .conditions__img{
+        width: 30%;
+    }
+    .conditions__title{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .nav__button{
+        font-size: 12px;
+        padding: 8px;
+    }
+    .haeder__title{
+        font-size: 27px;
+    }
+    .header__button{
+        padding: 6px;
+        font-size: 16px;
+    }
+    .guide__title{
+        font-size: 24px;
+    }
+    .guide__subtitle{
+        font-size: 14px;
+    }
+    .guide__punkt-title{
+        font-size: 17px;
+    }
+    .vertical-line{
+        height: 24px;
+    }
+    .guide__num{
+        margin-top: 0;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .experience__title{
+        width: 300px;
+    }
+    .experience__info-block{
+        padding: 130px 60px !important;
+    }
+    .title__subtitle{
+        width: 300px;
+    }
+    .conditions__subtitle{
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    nav{
+        display: none;
+    }
+    .nav__mob{
+        display: block !important;
+        padding: 30px 0;
+        background: #fff;
+    }
+    .hamburger{
+        width: 125% !important;
+    }
+    .nav__mob-nav{
+        background: #fff;
+        height: 100vh;
+        z-index: 999;
+        padding: 35px 50px 50px 44px;
+        position: fixed;
+        display: none;
+    }
+    .nav__mob-links{
+        display: block;
+        margin-top: 20px;
+    }
+    .hamburger-close{
+        width: 15px;
+    }
+    .active{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    .hamburger{
+        width: 45% !important;
+    }
+    .nav__button{
+        font-size: 13px;
+    }
+    .header__block{
+        width: 510px;
+    }
+    .header__title{
+        font-size: 24px;
+    }
+    .header__subtitle{
+        font-size: 16px;
+    }
+    .header__button{
+        padding: 5px;
+        font-size: 14px;
+        margin-top: 14px;
+    }
+    header{
+        padding: 120px 0;
+    }
+    .guide__block-wrap{
+        text-align: center !important;
+    }
+    .guide__block-head{
+        justify-content: center;
+        margin-top: 32px;
+    }
+    .guide__title{
+        text-align: center;
+    }
+    .guide{
+        margin: 80px 0;
+    }
+    .experience__img-block{
+        height: 380px;
+    }
+    .experience__info-block{
+        height: 320px;
+        padding: 80px !important;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .experience__title{
+        width: 320px;
+    }
+    .title__subtitle{
+        width: 310px;
+        font-size: 16px;
+    }
+    .conditions{
+        margin: 80px 0 !important;
+    }
+    .conditions__img{
+        width: 20%;
+    }
+    .conditions__title{
+        font-size: 18px;
+    }
+    .experience__img-block2{
+        height: 380px;
+    }
+    .rate__title{
+        font-size: 24px;
+    }
+    .rate__input{
+        height: 38px;
+        font-size: 13px;
+    }
+    .rate__textarea{
+        height: 80px;
+        font-size: 13px;
+    }
+    .rate__button{
+        font-size: 13px;
+        padding: 12px;
+        margin-top: 24px;
+    }
+    .rate__block{
+        width: 400px;
+        padding: 40px 60px;
+    }
+    .footer__block{
+        margin-top: 32px;
+    }
+    .footer__title{
+        font-size: 16px;
+    }
+    .footer__links{
+        font-size: 14px;
+    }
+    .footer__adres{
+        font-size: 14px;
+    }
+    .footer__phone{
+        font-size: 14px;
+    }
+    .footer__email{
+        font-size: 14px;
+    }
+    .copyright__text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .nav__links{
+        font-size: 14px;
+    }
+    .nav__button{
+        font-size: 10px;
+        padding: 4px;
+    }
+    .hamburger{
+        width: 15px !important;
+    }
+    .nav__mob-logo{
+        max-width: 100%;
+    }
+    .header__title{
+        font-size: 21px;
+    }
+    .header__block{
+        width: 250px;
+        padding: 30px 40px;
+    }
+    header{
+        padding: 60px 0;
+    }
+    .header__subtitle{
+        font-size: 14px;
+    }
+    .header__button{
+        padding: 4px;
+        font-size: 12px;
+    }
+    .guide__num{
+        font-size: 14px;
+    }
+    .guide__title{
+        font-size: 19px;
+    }
+    .guide__punkt-title{
+        font-size: 16px;
+    }
+    .experience__img-block{
+        height: 280px;
+    }
+    .experience__title{
+        width: 240px;
+        font-size: 24px;
+    }
+    .experience__subtitle{
+        font-size: 15px;
+        width: 240px;
+    }
+    .experience__info-block{
+        height: 280px;
+        padding: 50px !important;
+    }
+    .conditions{
+        margin: -70px 0 !important;
+    }
+    .conditions__img{
+        width: 30%;
+    }
+    .conditions__title{
+        font-size: 16px;
+    }
+    .conditions__subtitle{
+        font-size: 13px;
+    }
+    .conditions__block{
+        margin-top: 40px;
+    }
+    .feedbacks__block{
+        padding: 40px 30px;
+        margin-bottom: 40px;
+    }
+    .feedbacks__block-title{
+        font-size: 18px;
+    }
+    .feedbacks__subtitle{
+        font-size: 13px;
+    }
+    .feedbacks__date{
+        font-size: 14px;
+    }
+
+    .experience__img-block2{
+        height: 280px;
+    }
+    .rate__title{
+        font-size: 20px;
+    }
+    .rate__input{
+        height: 30px;
+        font-size: 11px;
+    }
+    .rate__textarea-subtitle{
+        font-size: 11px;
+    }
+    .rate__block{
+        width: 400px;
+        padding: 30px 40px;
+    }
+    .rate__button{
+        margin-top: 18px;
+        padding: 8px;
+    }
+    .footer__links{
+        font-size: 12px;    
+    }
+    .footer__links{
+        font-size: 12px;
+    }
+    .footer__adres{
+        font-size: 12px;
+    }
+    .footer__phone{
+        font-size: 12px;
+    }
+    .footer__email{
+        font-size: 12px;
+    }
+    .footer__network{
+        width: 20%;
+    }
+    .copyright__text{
+        font-size: 12px;
+    }
+}

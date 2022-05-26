@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="postorder">
+        <div class="postorder__block">
+            <img src="img/smile.svg" alt="">
+            <p class="postorder__text">
+              Спасибо за бронирвоание в нашем хостеле!
+            </p>
+            <a href="index.html" class="submit-button">На главную</a>
+        </div>
+    </div> 
+
+
+    <style>
+        .postorder{
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.postorder__block{
+    height: 400px;
+    width: 420px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #6A9793;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.postorder__text{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.submit-button{
+    margin-top: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px;
+    background: #6A9793;
+    border: none;
+    width: 80%;
+    border-radius: 5px;
+}
+.submit-button:hover{
+    cursor: pointer;
+    background: none;
+    color: #6A9793;
+    border: 1px solid #6A9793;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 576px){
+    .postorder__text{
+        width: 280px;
+    }
+    .postorder__block{
+        width: 90%;
+        padding: 5px;
+    }
+}
+
+
+    </style>
+</body>
+</html>
